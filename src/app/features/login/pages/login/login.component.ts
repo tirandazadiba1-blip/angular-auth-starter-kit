@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './login.component.css'
 })
 export class LoginComponent {
-
+  login(): void {
+    console.log('Login clicked');
+  }
 }
